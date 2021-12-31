@@ -1,0 +1,38 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.conatiner{
+  height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.quantity{
+  
+display: flex;
+justify-content: center;
+flex-direction: row;
+background-color: aqua;
+}
+.quantity-minus{
+  width: 30px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.quantity-input
+{
+width: 30px;
+
+text-align: center;
+font-size: 20px;
+}
+.quantity-plus{
+  width: 30px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
